@@ -7,7 +7,20 @@
     <escape><script src="app.js" defer></script></escape>
 </head>
 <body>
-    <h1>Superheroes</h1>
-    <button id="searchButton">Search</button>
-</body>
+    <header> 
+        <h1>Superheroes</h1>
+    </header>
+    
+    <h4>Search by Full Name or Alias</h4>
+    
+    <form id="searchForm">
+       <label for="searchInput"></label>
+        <input type="text" id="searchInput" placeholder="Type Here:">
+        <button id="searchButton" type="submit">Search</button>
+    </form>
+    <hr> 
+
+    <h2> Results for Search:</h2>
+    <div id="result"></div>
+</body>    
 </html>
